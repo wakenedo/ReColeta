@@ -4,7 +4,7 @@ import axios from 'axios';
 //  ? process.env.REACT_APP_PRODUCTION_BASE_URL
 //  : process.env.REACT_APP_LOCAL_BASE_URL;
 
-const baseURL = process.env.REACT_APP_LOCAL_BASE_URL;
+const baseURL = "http://localhost:8080";
 
 // Create an instance of Axios with custom configurations
 const instance = axios.create({
