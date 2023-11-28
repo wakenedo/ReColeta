@@ -1,0 +1,2 @@
+# ReColeta - React + TypeScript + Vite
+

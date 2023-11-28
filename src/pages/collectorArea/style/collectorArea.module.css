@@ -1,0 +1,115 @@
+@import '../../../style/global.css';
+
+
+
+
+
+/* Default collectorArea Styles */
+
+.collector-container-bg {
+  border-radius: var(--container-border-radius);
+  box-shadow: var(--container-box-shadow);
+  background-color: #fff;
+  margin: 8px 8px;
+  width: 95%;
+
+}
+
+.collector-container {
+  background: var(--gradient-linear-bottom);
+  padding: 1px 1px;
+
+}
+
+.container-collector-dot-menu {
+  margin-bottom: 20px;
+}
+
+
+.collector-profile-section-border {
+  border-radius: var(--container-border-radius);
+  border: 1px solid var(--medium-gray);
+}
+
+.collector-profile-inroduction {
+  margin-bottom: 10px
+}
+
+.collector-profile-inroduction span {
+  font-size: var(--primary-font-size);
+  color: var(--dark-gray);
+}
+
+.collector-profile-header {
+  display: flex;
+  margin-top: 20px;
+}
+
+.collector-profile-header-name-ratings h5 {
+  color: var(--dark-gray);
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+
+.collector-profile-header-photo img {
+  width: 75px;
+  margin-left: 60px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.collector-section-title {
+  font-size: var(--small-font-size);
+  color: var(--medium-gray);
+}
+
+/* End of Default collectorArea Styles */
+
+
+
+/* First Content */
+
+.collector-profile-user-information {
+  padding: 0 0 2px 15px;
+  margin-bottom: 20px;
+}
+
+.collector-profile-user-information span {
+  color: var(--medium-gray);
+  font-size: var(--smaller-font-size);
+}
+
+.collector-profile-user-information p {
+  color: var(--dark-gray);
+  font-size: var(--small-font-size);
+  margin-bottom: 0;
+}
+
+.collector-profile-stats-information {
+  padding: 0 0 2px 15px;
+  height: 240px;
+}
+
+.collector-profile-stats-information span {
+  color: var(--medium-gray);
+  font-size: var(--smaller-font-size);
+}
+
+.collector-profile-stats-information p {
+  color: var(--dark-gray);
+  font-size: var(--small-font-size);
+  margin-bottom: 0;
+}
+
+.collector-profile-collectables-information {
+  height: 65px;
+}
+
+/* End of Frist Content Styles */
+
+.collector-valuations {
+  height: 516.5px
+}
+
+/* Second Content Styles */

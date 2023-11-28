@@ -1,0 +1,226 @@
+@import './global.css';
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(circle, white, #7ee3fa);
+}
+
+@media screen and (min-width: 601px) {
+  .interface-screen-adapter {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+}
+
+/* Start of First Content Styles */
+.profile-header p {
+  color: var(--medium-gray);
+  font-size: var(--small-font-size)
+}
+
+.profile-header-photo img {
+  width: 120px;
+  margin-left: 115px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-header-photo img {
+    width: 90px;
+    height: 90px;
+    margin-left: 120px;
+  }
+
+}
+
+.profile-section-title {
+  font-size: var(--small-font-size);
+  color: var(--medium-gray);
+}
+
+.profile-section-border {
+  border-radius: var(--container-border-radius);
+  border: 1px solid var(--medium-gray);
+}
+
+.profile-user-information {
+  padding: 0 0 2px 15px;
+  margin-bottom: 60px;
+}
+
+.profile-user-information span {
+  color: var(--medium-gray);
+  font-size: var(--smaller-font-size);
+}
+
+.profile-user-information p {
+  color: var(--dark-gray);
+  font-size: var(--small-font-size);
+  margin-bottom: 0;
+}
+
+.profile-stats-information {
+  padding: 0 0 2px 15px;
+  height: 260px;
+}
+
+.profile-stats-information span {
+  color: var(--medium-gray);
+  font-size: var(--smaller-font-size);
+}
+
+.profile-stats-information p {
+  color: var(--dark-gray);
+  font-size: var(--small-font-size);
+  margin-bottom: 0;
+}
+
+.profile-buttons {
+  margin: 0 59px 15px;
+}
+
+.profile-buttons button {
+  border-radius: var(--container-border-radius);
+  font-size: var(--primary-font-size);
+  color: var(--light-gray);
+  background-color: var(--dark-gray);
+  border: none;
+  padding: 0 13px;
+  margin: 0 0 0 2px
+}
+
+/* End of Frist Content Styles */
+
+/* Start of Second Content Styles */
+.container-user-actions-background {
+  background: var(--gradient-linear-bottom);
+  border-radius: var(--container-border-radius);
+  box-shadow: var(--container-box-shadow);
+  padding: 6px;
+  margin: 10px 0px 0px
+}
+
+.container-user-actions {
+  border-radius: var(--container-border-radius);
+  box-shadow: var(--container-box-shadow);
+  background: white;
+  padding: 1px 5px 5px;
+  margin-top: 8px;
+}
+
+.user-actions-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+.user-actions-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .user-actions-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+  }
+
+  .user-actions-icons a img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.user-actions-icons img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container-user-demands {
+  border-radius: var(--container-border-radius);
+  box-shadow: var(--container-box-shadow);
+  background: white;
+  padding: 1px 5px 5px;
+  margin-top: 5px;
+}
+
+.profile-active-demands {
+  height: 291.5px;
+}
+
+/* End of Second Content Styles */
+
+/* Start of Third Content Styles */
+
+.container-user-news {
+  border-radius: var(--container-border-radius);
+  box-shadow: var(--container-box-shadow);
+  background: white;
+  padding: 1px 5px 5px;
+  margin-top: 1px;
+}
+
+/* End of Third Content Styles */
+
+/* Start of Forth Content Styles*/
+.container-gradient {
+  background: var(--gradient-linear-bottom);
+  padding: 3px;
+  border-radius: var(--container-border-radius);
+  font-weight: 300;
+  font-size: var(--small-font-size);
+}
+
+.container-my-address {
+  box-shadow: var(--container-box-shadow);
+  border-radius: var(--container-border-radius);
+  background-color: white;
+  margin: 10px 0px;
+}
+
+.container-white {
+  box-shadow: var(--container-box-shadow);
+  border-radius: var(--container-border-radius);
+  background-color: white;
+  padding: 1px;
+  margin: 10px 3px;
+}
+
+.container-my-address-title {
+  font-size: var(--small-font-size);
+  color: var(--medium-gray);
+  margin-left: 8px;
+}
+
+.information-block {
+  width: 19.05rem;
+  height: 5.9rem;
+  border: 2px solid #4BD609;
+  margin: 10px 11px 0 7px;
+}
+
+.new-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2.25rem 0 1.7rem;
+  font-size: var(--primary-font-size);
+}
+
+.new-address span {
+  margin-bottom: 5px;
+}
+
+/* End of Forth Content Styles*/

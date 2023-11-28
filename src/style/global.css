@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+  background: radial-gradient(circle, #bdf1fc, #c0f3ff);
+}
+
+
+:root {
+  font-family: 'Roboto', sans-serif;
+
+
+  /*Default Body Styles*/
+
+
+  /*Default Container Styles*/
+  --container-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --container-border-radius: 3px;
+
+  /*Default Container Gradient*/
+  --gradient-linear-bottom: linear-gradient(to bottom, #A6FA7E, rgba(240, 144, 0, 0.15));
+
+  /*Background Gradient*/
+  --gradient-circle: radial-gradient(circle, #0000ff, #ffffff);
+
+  --nav-text-item: #319702;
+  --nav-text-item-hover: #195000;
+
+  --analog-green: #A6FA7E;
+  --primary-green: #84F84D;
+  --secondary-green: #62F61C;
+  --tertiary-green: #4BD609;
+  --quaternary-green: #1f6300;
+
+
+  --analog-blue: #7EE3FA;
+  --primary-blue: #4DD8F8;
+  --secondary-blue: #1CCDF6;
+  --tertiary-blue: #09B0D6;
+  --quaternary-blue: #005265;
+
+  --analog-orange: #FF9A51;
+  --primary-orange: #FF7C1E;
+  --secondary-orange: #EA6200;
+  --tertiary-orange: #DB5C00;
+  --quaternary-orange: #5d2700;
+
+
+  --light-gray: #F6F6F6;
+  --light-medium-gray: #C2C2C2;
+  --medium-gray: #B7B7B7;
+  --dark-gray: #5C5C5C;
+
+  --primary-title-font-size: 22px;
+
+  --primary-font-size: 14px;
+  --small-font-size: 12px;
+  --smaller-font-size: 10px;
+}
+
+
+/* ------------------ HEADER CSS -------------------------------------------------- */
+
+.username-container {
+  font-size: var(--primary-font-size);
+  display: flex;
+  align-items: center;
+  margin: 0 20px
+}
+
+.username-container span {
+  margin: 0 10px
+}
+
+.navbar-toggler {
+  margin: 0 20px 0 0;
+}
+
+.nav-box-background {
+  background: white;
+  box-shadow: var(--container-box-shadow);
+}
+
+.navbar {
+  background: var(--gradient-linear-bottom);
+}
+
+.nav-item-text {
+  color: var(--nav-text-item);
+  font-size: var(--primary-font-size);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav-item-text:hover {
+  color: var(--secondary-orange)
+}
+
+
+/* ------------------ FOOTER CSS -------------------------------------------------- */
+
+.footer-container {
+  background-color: #5c5c5c;
+  padding: 16px 0 16px 0;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container img {
+  width: 16px;
+}
+
+@media screen and (min-width: 600px) {
+  .footer-container {
+    display: none;
+  }
+}
+
+/* ------------------ DEFAULT CONTAINER (WHITE BG) CSS -------------------------------------------------- */
+
+
+
+.container {
+  height: 85%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-gray);
+  box-shadow: var(--container-box-shadow);
+  margin: 10px 9px;
+
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+}
+
+/* ------------------ DOT MENU CSS -------------------------------------------------- */
+
+.dot-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+  margin-bottom: 12px;
+
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.dot.active {
+  background-color: #555;
+}
+
+
+/* ------------------ REPORTS SCREEN CSS -------------------------------------------------- */
+
+.container-pagination-component {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  font-size: var(--small-font-size);
+}
+
+.table-header-text {
+  font-size: var(--primary-title-font-size);
+  font-weight: bold;
+  color: var(--dark-gray);
+  margin: 10px 0;
+}
+
+.table-header-items-text {
+  font-size: var(--smaller-font-size);
+  font-weight: bold;
+  color: var(--dark-gray);
+  margin: 0;
+}
+
+.page-item span {
+  font-size: var(--small-font-size);
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.table-items-container {
+  font-size: var(--smaller-font-size);
+  align-items: center;
+  margin: 10px 0;
+}
+
+.pagination {
+  --bs-pagination-padding-x: 0.75rem;
+  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-font-size: 1rem;
+  --bs-pagination-color: var(--dark-gray);
+  --bs-pagination-bg: #fff;
+  --bs-pagination-border-width: 1px;
+  --bs-pagination-border-color: #dee2e6;
+  --bs-pagination-border-radius: 0.375rem;
+  --bs-pagination-hover-color: var(--bs-link-hover-color);
+  --bs-pagination-hover-bg: #e9ecef;
+  --bs-pagination-hover-border-color: #dee2e6;
+  --bs-pagination-focus-color: var(--bs-link-hover-color);
+  --bs-pagination-focus-bg: #e9ecef;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  --bs-pagination-active-color: #fff;
+  --bs-pagination-active-bg: var(--dark-gray);
+  --bs-pagination-active-border-color: var(--dark-gray);
+  --bs-pagination-disabled-color: #6c757d;
+  --bs-pagination-disabled-bg: #fff;
+  --bs-pagination-disabled-border-color: #dee2e6;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .table-container {
+    overflow-x: auto;
+    /* Add horizontal scroll for small screens */
+  }
+
+  .table {
+    width: 100%;
+    /* Make the table take up the full width of its container */
+    border-collapse: collapse;
+    /* Collapse borders to prevent spacing between cells */
+  }
+
+  .table-header-items-container,
+  .table-items-container {
+    display: flex;
+    font-size: var(--smaller-font-size);
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .table-header-items-text {
+    font-size: var(--smaller-font-size);
+    font-weight: bold;
+    color: var(--dark-gray);
+    margin: 0;
+  }
+
+  .table-items-data-cell {
+    flex: 1;
+    /* Distribute equal space among cells */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    overflow: hidden;
+    /* Hide overflowed content */
+    text-overflow: ellipsis;
+    /* Display ellipsis (...) for overflowed text */
+
+    /* Add padding for better readability */
+  }
+}
+
+
+
+/* ------------------------------------------------------------------------ */

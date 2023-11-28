@@ -1,0 +1,93 @@
+@import '../../../style/global.css';
+
+
+/* First Content */
+.type-header p {
+    color: var(--medium-gray);
+    font-size: var(--small-font-size)
+}
+
+.section-title {
+    font-size: var(--small-font-size);
+    color: var(--medium-gray);
+}
+
+.inner-section-title {
+    font-size: var(--small-font-size);
+    color: var(--medium-gray);
+    margin: 2px 0px 0px 7px;
+}
+
+.type-section-border {
+    border-radius: var(--container-border-radius);
+    border: 1px solid var(--medium-gray);
+}
+
+
+.category-information {
+    padding: 0 0 2px 15px;
+    height: 100px;
+}
+
+.type-information {
+    height: 110px;
+}
+
+.type-information label {
+    font-size: var(--small-font-size);
+    color: var(--medium-gray);
+    margin: 40px 20px 0px 40px;
+}
+
+.quantity-information {
+    padding: 0 0 2px 15px;
+    height: 110px;
+}
+
+.container-gradient-background {
+    background: white;
+    box-shadow: var(--container-box-shadow);
+    margin-top: 10px
+}
+
+.gradient-container {
+    height: 210px;
+    background: var(--gradient-linear-bottom);
+    position: relative;
+    overflow: hidden;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.my-address-white-background {
+    background-color: white;
+    margin: 10px auto;
+    box-shadow: var(--container-box-shadow);
+}
+
+.inner-div.address {
+    background-color: var(--light-gray);
+    padding: 10px;
+    border-radius: var(--container-border-radius);
+    box-shadow: var(--container-box-shadow);
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.create-button {
+    margin-top: 30px;
+}
+
+.create-button a {
+    background-color: var(--tertiary-blue);
+    border-radius: var(--container-border-radius);
+    color: white;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}

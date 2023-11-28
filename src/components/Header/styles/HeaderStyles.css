@@ -1,0 +1,23 @@
+.username-container {
+  font-size: var(--primary-font-size);
+  display: flex;
+  align-items: center;
+  margin: 0 20px
+}
+
+.username-container span {
+  margin: 0 10px
+}
+
+.navbar-toggler {
+  margin: 0 20px 0 0;
+}
+
+.nav-box-background {
+  background: white;
+  box-shadow: var(--container-box-shadow);
+}
+
+.navbar {
+  background: var(--gradient-linear-bottom);
+}

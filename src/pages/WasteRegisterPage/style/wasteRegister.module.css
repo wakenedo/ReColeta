@@ -1,0 +1,118 @@
+@import '../../../style/global.css';
+
+
+/* First Content */
+.type-header p {
+  color: var(--medium-gray);
+  font-size: var(--small-font-size)
+}
+
+.section-title {
+  font-size: var(--small-font-size);
+  color: var(--medium-gray);
+}
+
+.type-section-border {
+  border-radius: var(--container-border-radius);
+  border: 1px solid var(--medium-gray);
+}
+
+.category-information {
+  padding: 0 0 2px 15px;
+  height: 110px;
+}
+
+.type-information {
+  height: 110px;
+}
+
+.type-information label {
+  font-size: var(--small-font-size);
+  color: var(--medium-gray);
+  margin: 40px 20px 0px 40px;
+}
+
+.quantity-information {
+  padding: 0 0 2px 15px;
+  height: 110px;
+}
+
+.radius-information {
+  height: 100px;
+}
+
+/* End of Frist Content Styles */
+
+
+
+
+.distance-selector {
+  position: relative;
+  width: 70%;
+  /* Alterado para 90% */
+  height: 20px;
+  margin: 60px auto;
+  /* Centralizado horizontalmente */
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #000;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  transform: translate(-50%, -50%);
+  background-color: #7ee3fa;
+  border-radius: 50%;
+  cursor: grab;
+  user-select: none;
+}
+
+.start-label {
+  position: absolute;
+  top: 120%;
+  /* Ajustado para 120% */
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.middle-label {
+  position: absolute;
+  top: 120%;
+  /* Ajustado para 120% */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.end-label {
+  position: absolute;
+  top: 120%;
+  /* Ajustado para 120% */
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.search-button {
+  margin-top: 40px;
+}
+
+.search-button a {
+  background-color: var(--analog-orange);
+  border-radius: var(--container-border-radius);
+  color: white;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}

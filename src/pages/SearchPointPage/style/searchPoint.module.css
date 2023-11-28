@@ -1,0 +1,55 @@
+@import '../../../style/global.css';
+
+
+
+.search-box-container {
+    flex-shrink: 0;
+    background: var(--gradient-linear-bottom);
+    padding: 10px;
+    margin: 8px 10px;
+    box-shadow: var(--container-box-shadow);
+    border-radius: var(--container-border-radius);
+}
+
+.search-box-input-area {
+    background-color: var(--light-gray);
+    padding: 0px 10px 10px;
+    box-shadow: var(--container-box-shadow);
+    border-radius: var(--container-border-radius);
+}
+
+.search-box-input-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-box-input label {
+    color: var(--dark-gray);
+    font-size: var(--small-font-size);
+}
+
+.search-box-input input {
+    font-size: var(--small-font-size);
+    width: 330px;
+}
+
+.toggle-filters label {
+    color: var(--dark-gray);
+    font-size: var(--small-font-size);
+}
+
+
+#map-container {
+    flex-grow: 1;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: var(--container-border-radius);
+    box-shadow: var(--container-box-shadow);
+    margin: 10px 1px;
+}
+
+#map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

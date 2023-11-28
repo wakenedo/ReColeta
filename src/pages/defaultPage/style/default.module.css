@@ -1,0 +1,100 @@
+@import '../../../style/global.css';
+
+
+
+.username-container {
+  font-size: var(--primary-font-size);
+  display: flex;
+  align-items: center;
+  margin: 0 20px
+}
+
+.username-container span {
+  margin: 0 10px
+}
+
+.navbar-toggler {
+  margin: 0 20px 0 0;
+}
+
+.nav-box-background {
+  background: white;
+  box-shadow: var(--container-box-shadow);
+}
+
+.navbar {
+  background: var(--gradient-linear-bottom);
+}
+
+.container {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-gray);
+  box-shadow: var(--container-box-shadow);
+  margin: 10px 9px 60px;
+}
+
+.profile-header p {
+  color: var(--medium-gray);
+  font-size: var(--small-font-size)
+}
+
+.profile-header-photo img {
+  width: 110px;
+  margin-left: 110px;
+}
+
+.profile-section-title {
+  font-size: var(--small-font-size);
+  color: var(--medium-gray);
+}
+
+.profile-section-border {
+  border-radius: var(--container-border-radius);
+  border: 1px solid var(--medium-gray);
+}
+
+.profile-user-information {
+  padding: 0 0 2px 15px;
+  margin-bottom: 60px;
+}
+
+.profile-user-information span {
+  color: var(--medium-gray);
+  font-size: var(--smaller-font-size);
+}
+
+.profile-user-information p {
+  color: var(--dark-gray);
+  font-size: var(--small-font-size);
+  margin-bottom: 0;
+}
+
+.profile-buttons {
+  margin: 0 60px 15px;
+}
+
+.profile-buttons button {
+  border-radius: var(--container-border-radius);
+  font-size: var(--primary-font-size);
+  color: var(--light-gray);
+  background-color: var(--dark-gray);
+  border: none;
+  padding: 0 13px
+}
+
+.footer-container {
+  background-color: #5c5c5c;
+  padding: 16px 0 16px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container img {
+  width: 16px;
+}
