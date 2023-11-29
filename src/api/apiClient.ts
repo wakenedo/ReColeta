@@ -34,6 +34,15 @@ export const getUserById = async (id: number): Promise<AxiosResponse<any, any>> 
   }
 };
 
+export const deleteUser = async (id: number): Promise<void> => {
+  try {
+    await axios.delete(`/user/${id}`);
+  } catch (error) {
+    console.error('Error deleting user:');
+    throw error;
+  }
+};
+
 export const updateUserProfile = (id: number, serverUserData: ServerUserData) => {
   return axios.put(`/user/${id}`, serverUserData);
 };
