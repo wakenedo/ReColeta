@@ -181,3 +181,10 @@ input[type="lastName"] {
   background-color: #A6FA7E;
   width: 100%;
 }
+
+.registration-warning {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
